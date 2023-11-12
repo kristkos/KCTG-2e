@@ -30,7 +30,9 @@
         "ASSISTANT": "OWNER"
       },
       "system": "pf2e",
-      "flags": {}
+      "flags": {},
+    "download": "https://github.com/kristkos/KCTG-2e/releases/download/v2.11.21/module.zip",
+    "manifest": "https://github.com/kristkos/KCTG-2e/releases/latest/download/module.json"
     }
   ]
 }
