@@ -33,15 +33,6 @@
       "flags": {}
     }
   ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
   "packs": [
     {
       "name": "kctg-2e",
@@ -58,5 +49,5 @@
     }
   ],
   "download": "https://github.com/kristkos/KCTG-2e/releases/download/1.1.1b/kctg-2e.zip",
-  "manifest": "https://raw.githubusercontent.com/kristkos/KCTG-2e/main/module.json"
+  "manifest": "https://github.com/kristkos/KCTG-2e/blob/main/module.json"
 }
