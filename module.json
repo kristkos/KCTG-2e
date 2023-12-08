@@ -5,7 +5,7 @@
   "version": "1.1.1b",
   "compatibility": {
     "minimum": "11",
-    "verified": "11",
+    "verified": "11.315",
     "maximum": "11"
   },
   "scripts": [
@@ -22,13 +22,26 @@
   "media": [
     {
       "type": "cover",
-      "location": "modules/kctg-2e/banner/Thumb.webp"
-      },
+      "loop": false,
+      "flags": {}
+    },
     {
-        "type": "setup",
-        "caption": "Kris's Compendium of Trade Goods",
-        "thumbnail": "modules/kctg-2e/banner/Thumb.webp"
-    }],
+      "type": "setup",
+      "caption": "Kris's Compendium of Trade Goods",
+      "thumbnail": "modules/kctg-2e/banner/Thumb.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
   "packs": [
     {
       "name": "kctg-2e",
@@ -45,5 +58,5 @@
     }
   ],
   "download": "https://github.com/kristkos/KCTG-2e/releases/download/1.1.1b/kctg-2e.zip",
-  "manifest": "https://github.com/kristkos/KCTG-2e/blob/main/module.json"
+  "manifest": "https://raw.githubusercontent.com/kristkos/KCTG-2e/main/module.json"
 }
