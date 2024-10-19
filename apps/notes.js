@@ -1,3 +1,4 @@
+import {MODULE_ID} from "../kctg-2e.js";
 
 export class Notes extends Application {
     constructor(object, options = {}) {
@@ -9,17 +10,19 @@ export class Notes extends Application {
             id: "notes",
             title: "Thank you for downloading",
             template: "modules/kctg-2e/templates/notes.html",
-            width: 1000,
-            height: '450'
+            width: 750,
+            height: 600,
+            classes:[ "kctg"]
         });
     }
 
     activateListeners(html) {
         super.activateListeners(html);
         $('.clear', html).bind("click", () => {
-            game.settings.set("kctg-2e", "show-warning", false);
+            game.settings.set(MODULE_ID, "show-warning", false);
             this.close();
         });
+
         $('.just-close', html).bind("click", () => {
             this.close();
         });
