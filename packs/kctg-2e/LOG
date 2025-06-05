@@ -1,15 +1,74 @@
-2025/06/02-10:45:30.391 46f0 Recovering log #492
-2025/06/02-10:45:30.491 46f0 Delete type=0 #492
-2025/06/02-10:45:30.491 46f0 Delete type=3 #490
-2025/06/02-18:10:15.721 50c0 Level-0 table #497: started
-2025/06/02-18:10:15.762 50c0 Level-0 table #497: 91763 bytes OK
-2025/06/02-18:10:15.808 50c0 Delete type=0 #495
-2025/06/02-18:10:15.808 50c0 Manual compaction at level-0 from '!folders!0Tm0asm3LUrxa5kC' @ 72057594037927935 : 1 .. '!items!zreu8oLEJYjFNyG4' @ 0 : 0; will stop at (end)
-2025/06/02-18:10:15.808 50c0 Manual compaction at level-1 from '!folders!0Tm0asm3LUrxa5kC' @ 72057594037927935 : 1 .. '!items!zreu8oLEJYjFNyG4' @ 0 : 0; will stop at '!items!zreu8oLEJYjFNyG4' @ 4350 : 1
-2025/06/02-18:10:15.808 50c0 Compacting 1@1 + 1@2 files
-2025/06/02-18:10:15.896 50c0 Generated table #498@1: 781 keys, 653022 bytes
-2025/06/02-18:10:15.896 50c0 Compacted 1@1 + 1@2 files => 653022 bytes
-2025/06/02-18:10:15.943 50c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/06/02-18:10:15.943 50c0 Delete type=2 #483
-2025/06/02-18:10:15.943 50c0 Delete type=2 #497
-2025/06/02-18:10:16.122 50c0 Manual compaction at level-1 from '!items!zreu8oLEJYjFNyG4' @ 4350 : 1 .. '!items!zreu8oLEJYjFNyG4' @ 0 : 0; will stop at (end)
+2025/06/02-22:32:50.123 493c Recovering log #496
+2025/06/02-22:32:50.215 493c Delete type=2 #11
+2025/06/02-22:32:50.215 493c Delete type=0 #13
+2025/06/02-22:32:50.215 493c Delete type=2 #30
+2025/06/02-22:32:50.215 493c Delete type=0 #43
+2025/06/02-22:32:50.215 493c Delete type=0 #50
+2025/06/02-22:32:50.215 493c Delete type=0 #65
+2025/06/02-22:32:50.215 493c Delete type=2 #67
+2025/06/02-22:32:50.215 493c Delete type=2 #163
+2025/06/02-22:32:50.217 493c Delete type=0 #172
+2025/06/02-22:32:50.217 493c Delete type=2 #205
+2025/06/02-22:32:50.217 493c Delete type=0 #207
+2025/06/02-22:32:50.217 493c Delete type=0 #211
+2025/06/02-22:32:50.217 493c Delete type=2 #214
+2025/06/02-22:32:50.217 493c Delete type=2 #219
+2025/06/02-22:32:50.218 493c Delete type=0 #221
+2025/06/02-22:32:50.218 493c Delete type=2 #255
+2025/06/02-22:32:50.218 493c Delete type=0 #256
+2025/06/02-22:32:50.218 493c Delete type=0 #263
+2025/06/02-22:32:50.219 493c Delete type=2 #266
+2025/06/02-22:32:50.219 493c Delete type=0 #277
+2025/06/02-22:32:50.219 493c Delete type=2 #279
+2025/06/02-22:32:50.219 493c Delete type=2 #299
+2025/06/02-22:32:50.219 493c Delete type=0 #302
+2025/06/02-22:32:50.219 493c Delete type=0 #305
+2025/06/02-22:32:50.220 493c Delete type=2 #307
+2025/06/02-22:32:50.220 493c Delete type=0 #308
+2025/06/02-22:32:50.220 493c Delete type=2 #310
+2025/06/02-22:32:50.220 493c Delete type=0 #321
+2025/06/02-22:32:50.220 493c Delete type=2 #323
+2025/06/02-22:32:50.220 493c Delete type=0 #324
+2025/06/02-22:32:50.220 493c Delete type=0 #343
+2025/06/02-22:32:50.220 493c Delete type=2 #345
+2025/06/02-22:32:50.220 493c Delete type=0 #401
+2025/06/02-22:32:50.220 493c Delete type=2 #403
+2025/06/02-22:32:50.220 493c Delete type=0 #433
+2025/06/02-22:32:50.221 493c Delete type=2 #435
+2025/06/02-22:32:50.221 493c Delete type=0 #443
+2025/06/02-22:32:50.221 493c Delete type=2 #446
+2025/06/02-22:32:50.221 493c Delete type=0 #462
+2025/06/02-22:32:50.221 493c Delete type=2 #464
+2025/06/02-22:32:50.221 493c Delete type=0 #466
+2025/06/02-22:32:50.221 493c Delete type=0 #476
+2025/06/02-22:32:50.221 493c Delete type=2 #478
+2025/06/02-22:32:50.221 493c Delete type=0 #496
+2025/06/02-22:32:50.221 493c Delete type=3 #12
+2025/06/02-22:32:50.221 493c Delete type=3 #41
+2025/06/02-22:32:50.221 493c Delete type=3 #49
+2025/06/02-22:32:50.221 493c Delete type=3 #63
+2025/06/02-22:32:50.221 493c Delete type=3 #170
+2025/06/02-22:32:50.223 493c Delete type=3 #206
+2025/06/02-22:32:50.223 493c Delete type=3 #208
+2025/06/02-22:32:50.223 493c Delete type=3 #220
+2025/06/02-22:32:50.223 493c Delete type=3 #254
+2025/06/02-22:32:50.223 493c Delete type=3 #261
+2025/06/02-22:32:50.223 493c Delete type=3 #275
+2025/06/02-22:32:50.223 493c Delete type=3 #300
+2025/06/02-22:32:50.223 493c Delete type=3 #304
+2025/06/02-22:32:50.223 493c Delete type=3 #306
+2025/06/02-22:32:50.223 493c Delete type=3 #320
+2025/06/02-22:32:50.223 493c Delete type=3 #322
+2025/06/02-22:32:50.223 493c Delete type=3 #341
+2025/06/02-22:32:50.223 493c Delete type=3 #399
+2025/06/02-22:32:50.225 493c Delete type=3 #431
+2025/06/02-22:32:50.225 493c Delete type=3 #440
+2025/06/02-22:32:50.225 493c Delete type=3 #460
+2025/06/02-22:32:50.225 493c Delete type=3 #465
+2025/06/02-22:32:50.225 493c Delete type=3 #474
+2025/06/02-22:32:50.225 493c Delete type=3 #494
+2025/06/02-22:38:52.958 4774 Level-0 table #502: started
+2025/06/02-22:38:52.958 4774 Level-0 table #502: 0 bytes OK
+2025/06/02-22:38:53.022 4774 Delete type=0 #500
+2025/06/02-22:38:53.023 4774 Manual compaction at level-0 from '!folders!0Tm0asm3LUrxa5kC' @ 72057594037927935 : 1 .. '!items!zreu8oLEJYjFNyG4' @ 0 : 0; will stop at (end)
+2025/06/02-22:38:53.023 4774 Manual compaction at level-1 from '!folders!0Tm0asm3LUrxa5kC' @ 72057594037927935 : 1 .. '!items!zreu8oLEJYjFNyG4' @ 0 : 0; will stop at (end)
