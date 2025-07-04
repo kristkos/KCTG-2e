@@ -2,10 +2,10 @@
   "id": "kctg-2e",
   "title": "Kris's Compendium of Trade Goods - PF2e edition",
   "description": "<i>A comprehensive database of trade goods aimed at enhancing worldbuilding efforts by facilitating the distribution of resources and bringing depth to various regions, while also catering to political interests</i><br /><br /> *** Support me on <a href=\"https://patreon.com/KCTG\" title=\"PATREON\">Patreon</a> or join me on <a href=\"https://discord.gg/MYgCWdAc9c\" title=\"Discord\">Discord</a> ***<p></p>",
-  "version": "1.16.1",
+  "version": "1.17.0",
   "compatibility": {
     "minimum": "12",
-    "verified": "12.343",
+    "verified": "13.346",
     "maximum": "13"
   },
   "esmodules": [
@@ -51,6 +51,8 @@
       "flags": {}
     }
   ],
-  "download": "https://github.com/kristkos/KCTG-2e/releases/download/1.16.1/kctg-2e.zip",
-  "manifest": "https://raw.githubusercontent.com/kristkos/KCTG-2e/main/module.json"
+  "download": "https://github.com/kristkos/KCTG-2e/releases/download/1.17.0/kctg-2e.zip",
+  "manifest": "https://raw.githubusercontent.com/kristkos/KCTG-2e/main/module.json",
+    "url": "https://github.com/kristkos/KCTG-2e"
+  
 }
