@@ -122,12 +122,12 @@ background: linear-gradient(195deg,
 }
 .kctg-container td {
     border: none;
-    border-bottom: 1px solid rgba(211, 175, 55, 0.2);
+    border-bottom: 1px solid rgba(211, 175, 55, 0.2); 
     padding: 8px 12px;
     text-align: left;
     position: relative;
     background-color: rgba(255, 255, 255, 0.03);
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.425);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.425); 
 }
 .kctg-container tr:last-child td {
     border-bottom: none;
@@ -136,7 +136,7 @@ background: linear-gradient(195deg,
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 10px; 
     padding-top: 10px;
     border-top: 1px solid rgba(211, 175, 55, 0.3);
     position: relative;
@@ -148,11 +148,11 @@ background: linear-gradient(195deg,
         rgba(40, 40, 40, 0.7),
         rgba(30, 30, 30, 0.7));
     border: 1px solid rgba(211, 175, 55, 0.3);
-    padding: 6px 15px;
+    padding: 6px 15px; 
     border-radius: 15px;
     font-family: 'Cinzel', serif;
     color: #D3AF37;
-    font-size: 12px;
+    font-size: 12px; 
     cursor: pointer;
     transition: all 0.3s ease;
     text-transform: uppercase;
@@ -164,9 +164,9 @@ background: linear-gradient(195deg,
         inset 0 0 8px rgba(211, 175, 55, 0.1);
     z-index: 10;
     height: auto;
-    min-height: 40px;
+    min-height: 40px; 
     display: inline-block;
-    line-height: 1.2;
+    line-height: 1.2; 
 }
 
 .kctg-container button::before {
