@@ -1,29 +1,39 @@
-import {MODULE_ID} from "../kctg-2e.js";
+import { MODULE_ID } from "../kctg-2e.js";
 
-export class Notes extends Application {
-    constructor(object, options = {}) {
-        super(object, options);
+export class Notes extends foundry.applications.api.HandlebarsApplicationMixin(foundry.applications.api.ApplicationV2) {
+    constructor(options = {}) {
+        super(options);
     }
 
-    static get defaultOptions() {
-        return foundry.utils.mergeObject(super.defaultOptions, {
-            id: "notes",
+    static DEFAULT_OPTIONS = {
+        id: "notes",
+        tag: "div",
+        window: {
             title: "Thank you for downloading `Kris' Compendium of Trade Goods`",
-            template: "modules/kctg-2e/templates/notes.html",
-            width: 710,
-            height: 740,
-            classes:[ "kctg"]
-        });
-    }
+            resizable: false
+        },
+        position: {
+            width: 725,
+            height: 760
+        },
+        classes: ["kctg"]
+    };
 
-    activateListeners(html) {
-        super.activateListeners(html);
-        $('.clear', html).bind("click", () => {
+    static PARTS = {
+        main: {
+            template: "modules/kctg-2e/templates/notes.html"
+        }
+    };
+
+    _onRender(context, options) {
+        super._onRender(context, options);
+    
+        this.element.querySelector('.clear')?.addEventListener('click', () => {
             game.settings.set(MODULE_ID, "show-warning", false);
             this.close();
         });
-
-        $('.just-close', html).bind("click", () => {
+        
+        this.element.querySelector('.just-close')?.addEventListener('click', () => {
             this.close();
         });
     }
